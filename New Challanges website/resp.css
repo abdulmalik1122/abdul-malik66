@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:450px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .first-line{
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        height: 77vh;
+    }
+    .nav-list{
+        flex-direction: column;
+        /* width: 144%; */
+    }
+    .nevegation{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .nevegation li{
+        padding: 14px;
+    }
+    .btn{
+        margin: 9px;
+        padding: 10px 23px;
+    }
+    .father-first{
+        flex-direction: column;
+    }
+    .first-half{
+        margin-left: 0;
+    }
+    .first-half h1 {
+        font-size: 2rem;
+        margin-left: 43px;
+        }
+    
+    .first-half p {
+        
+        margin-left: 43px;
+        margin-right: 2rem;
+        line-height: 23px;
+        margin-top: 7px;
+        
+    }
+    .first-sec-btn{
+        margin-left: 39px;
+    }
+    .second-half{
+        margin-right: 0px;
+    }
+    .second-section {
+        height: 69vh;
+        margin-top: 9vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .father-second{
+        flex-direction: column;
+    }
+    .second-first-half {
+        margin-left: 0rem; 
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .second-second-half{
+        margin-top: 57px;
+        margin-left: 58px;
+    }
+    .second-second-half h1 {
+        font-size: 28px;
+        margin-right: 1rem;
+    }
+    .second-second-half p {
+        margin-top: 12px;
+        margin-right: 2rem;
+    }
+    .second-sec-btn{
+        margin: 12px 0px;
+    }
+    .third-section {
+        height: 203vh;
+        margin-top: 30px;
+    }
+    .third-section h4 {
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    .third-section h1 {
+        padding-top: 1rem;
+        padding-left: 2rem;
+    }
+    .father-third{
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        display: flex;
+    }
+    .three-box{
+        margin: 10px 0px;
+    }
+    .third-box1 {
+        background-color: white;
+        width: 91%;
+        margin: auto;
+    }
+
+
+}
